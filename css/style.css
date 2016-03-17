@@ -1,3 +1,5 @@
+/*testing purpose to see the changes on githubss save the file for me hahah somehow i can't save*/
+
 * {
 	box-sizing: border-box;
 }
@@ -59,10 +61,10 @@ ul {
 
 .banner-text{
 	position: absolute;
-	top: 120px;
-	text-align: center;
-	/*width: 100%;*/
-	padding: 0 25%;
+	top: 100px;
+	text-align: left;
+	width: 100%;
+	padding: 0 60% 10% 10%;
 }
 
 .inline-wrapper{
@@ -74,6 +76,11 @@ ul {
 	width: 33%;
 	position: relative;
 }
+
+/*.inline-wrapper div.img-youth{
+	margin-top: -60px;
+	padding-bottom: 30px;
+}*/
 
 .inline-wrapper div img{
 	width: 100%;
@@ -131,9 +138,14 @@ ul {
 .mobile-nav{
 	background-color: white;
 	width: 100%;
-	padding:10px;
-	display: none;
+	padding:0 0 10px 950px;
+	display: block;
 }
+
+/*.mobile-nav ul li{
+display: inline;
+padding:0 100px 10px 200px;
+}*/
 
 .hamburger div{
 	width: 30px;
@@ -167,13 +179,13 @@ ul {
 		width:100%;
 		}
 
-	.desktop-nav {
+	/*.desktop-nav {
 		display: none;
-	}
+	}*/
 
-	.mobile-nav {
+	/*.mobile-nav {
 		display: block;
-	}
+	}*/
 	nav{
 		top:0;
 	}
